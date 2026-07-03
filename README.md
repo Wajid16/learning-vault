@@ -12,6 +12,6 @@ New course folders get added one at a time, only once I've actually started them
 
 | Course | Status | Notes |
 |---|---|---|
-| [LLM Evals](llm-evals) (CampusX) | in progress | 2 |
+| [LLM Evals](llm-evals) (CampusX) | in progress | 3 |
 
 [`_meta/glossary.md`](_meta/glossary.md) — shared concepts referenced across courses.
