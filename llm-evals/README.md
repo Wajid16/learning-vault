@@ -11,3 +11,4 @@ Why this course: understanding how to actually evaluate whether an LLM applicati
 | 01 | [Why LLM Evals?](notes/01-why-llm-evals.md) | [link](https://youtu.be/6W92_t9FveA?si=XOZO1XTmHdykl988) |
 | 02 | [Model Evals vs. Application Evals](notes/02-model-vs-application-evals.md) | [link](https://youtu.be/cNF_MO82Qew?si=i6YVeBVfFzGDJApu) |
 | 03 | [The Complete Eval Workflow](notes/03-complete-eval-workflow.md) | [link](https://youtu.be/Pv4mkG2K_s8?si=ypbvoQ8WsrXDkS0v) |
+| 04 | [Failure Points & Risk Categories](notes/04-failure-points-and-risk-categories.md) | [link](https://youtu.be/DcZ-XCk-O_M?si=ehsCxFz4L9Y0DznO) |
