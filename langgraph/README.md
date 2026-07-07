@@ -13,3 +13,4 @@ Notes go here once this course starts — see [`_meta/workflow.md`](../_meta/wor
 | 05 | [Building Sequential Workflows in LangGraph (First Code)](notes/05-sequential-workflows-code.md) | [Video 05](https://youtu.be/bAWujyAl1Kk?si=Xb_V96c9V8p0qd27) |
 | 06 | [Building Parallel Workflows in LangGraph (Structured Output + Reducers)](notes/06-parallel-workflows-code.md) | [Video 06](https://youtu.be/O6ryuSpqdOw?si=Swr6nV7LJQH31nTj) |
 | 07 | [Building Conditional Workflows in LangGraph](notes/07-conditional-workflows-code.md) | [Video 07](https://youtu.be/I-dvZqTz-Wc?si=F1yG8DJU5fyNBcxu) |
+| 08 | [Building Iterative (Looping) Workflows in LangGraph](notes/08-iterative-workflows-code.md) | [Video 08](https://youtu.be/7CbSqrovcsE?si=53Yw8nhYPJOgSc7Q) |

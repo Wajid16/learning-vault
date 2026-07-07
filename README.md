@@ -15,7 +15,7 @@ New course folders get added one at a time, only once I've actually started them
 | [LLM Evals](llm-evals) (CampusX) | in progress | 4 |
 | [RAG](rag) | not started | 0 |
 | [MCP](mcp) | not started | 0 |
-| [LangGraph](langgraph) (CampusX) | in progress | 7 |
+| [LangGraph](langgraph) (CampusX) | in progress | 8 |
 | [LangChain](langchain) | not started | 0 |
 | [FastAPI](fastapi) | not started | 0 |
 | [Docker](docker) | not started | 0 |
