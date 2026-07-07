@@ -18,7 +18,7 @@ New course folders get added one at a time, only once I've actually started them
 | [LangGraph](langgraph) (CampusX) | in progress | 14 |
 | [LangChain](langchain) | not started | 0 |
 | [FastAPI](fastapi) | not started | 0 |
-| [Docker](docker) | not started | 0 |
+| [Docker](docker) (CampusX) | in progress | 1 |
 | [Pydantic](pydantic) | not started | 0 |
 | [n8n](n8n) | not started | 0 |
 
