@@ -15,3 +15,4 @@ Notes go here once this course starts — see [`_meta/workflow.md`](../_meta/wor
 | 07 | [Building Conditional Workflows in LangGraph](notes/07-conditional-workflows-code.md) | [Video 07](https://youtu.be/I-dvZqTz-Wc?si=F1yG8DJU5fyNBcxu) |
 | 08 | [Building Iterative (Looping) Workflows in LangGraph](notes/08-iterative-workflows-code.md) | [Video 08](https://youtu.be/7CbSqrovcsE?si=53Yw8nhYPJOgSc7Q) |
 | 09 | [A Chatbot in LangGraph — and Why It Forgets Everything](notes/09-chatbot-memory-bug.md) | [Video 09](https://youtu.be/51Ve2tE3Zns?si=zm34eMFy1NKl5Tug) |
+| 10 | [Persistence in LangGraph: Checkpointers, Threads, and What They Unlock](notes/10-persistence-deep-dive.md) | [Video 10](https://youtu.be/_IPP7_Bi8uA?si=nONWxKgRD94sgoKw) |
