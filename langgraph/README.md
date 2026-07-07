@@ -18,3 +18,4 @@ Notes go here once this course starts — see [`_meta/workflow.md`](../_meta/wor
 | 10 | [Persistence in LangGraph: Checkpointers, Threads, and What They Unlock](notes/10-persistence-deep-dive.md) | [Video 10](https://youtu.be/_IPP7_Bi8uA?si=nONWxKgRD94sgoKw) |
 | 11 | [Giving the LangGraph Chatbot a UI (Streamlit)](notes/11-streamlit-ui-for-chatbot.md) | [Video 11](https://youtu.be/voZAgDmO-rk?si=R1MQawOakH3LUPmx) |
 | 12 | [Streaming Responses in the LangGraph Chatbot](notes/12-streaming-chatbot-responses.md) | [Video 12](https://youtu.be/D1PcZaeQ2eg?si=Fj-D_zcabwVkaOgY) |
+| 13 | [Multi-Conversation "Resume Chat" for the LangGraph Chatbot](notes/13-resume-chat-feature.md) | [Video 13](https://youtu.be/N2nVG2MGWJ8?si=LziQGkkOWPw68FTJ) |
