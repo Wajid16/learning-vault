@@ -12,3 +12,4 @@ Notes go here once this course starts — see [`_meta/workflow.md`](../_meta/wor
 | 04 | [LangGraph Core Concepts: Workflows, Graphs, State, Reducers](notes/04-langgraph-core-concepts.md) | [Video 04](https://youtu.be/D5KhiCDM9XQ?si=q6layJjYBw20-v5k) |
 | 05 | [Building Sequential Workflows in LangGraph (First Code)](notes/05-sequential-workflows-code.md) | [Video 05](https://youtu.be/bAWujyAl1Kk?si=Xb_V96c9V8p0qd27) |
 | 06 | [Building Parallel Workflows in LangGraph (Structured Output + Reducers)](notes/06-parallel-workflows-code.md) | [Video 06](https://youtu.be/O6ryuSpqdOw?si=Swr6nV7LJQH31nTj) |
+| 07 | [Building Conditional Workflows in LangGraph](notes/07-conditional-workflows-code.md) | [Video 07](https://youtu.be/I-dvZqTz-Wc?si=F1yG8DJU5fyNBcxu) |
