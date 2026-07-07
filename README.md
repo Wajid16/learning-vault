@@ -30,7 +30,7 @@ Same format, same recall goal, non-technical subjects — kept separate from the
 
 | Course | Status | Notes |
 |---|---|---|
-| [Scientific Writing](non-technical/scientific-writing) | not started | 0 |
+| [Scientific Writing](non-technical/scientific-writing) | in progress | 5 |
 | [IELTS](non-technical/ielts) | not started | 0 |
 | [English](non-technical/english) | in progress | 0 |
 | [Freelancing](non-technical/freelancing) | not started | 0 |
