@@ -19,3 +19,4 @@ Notes go here once this course starts — see [`_meta/workflow.md`](../_meta/wor
 | 11 | [Giving the LangGraph Chatbot a UI (Streamlit)](notes/11-streamlit-ui-for-chatbot.md) | [Video 11](https://youtu.be/voZAgDmO-rk?si=R1MQawOakH3LUPmx) |
 | 12 | [Streaming Responses in the LangGraph Chatbot](notes/12-streaming-chatbot-responses.md) | [Video 12](https://youtu.be/D1PcZaeQ2eg?si=Fj-D_zcabwVkaOgY) |
 | 13 | [Multi-Conversation "Resume Chat" for the LangGraph Chatbot](notes/13-resume-chat-feature.md) | [Video 13](https://youtu.be/N2nVG2MGWJ8?si=LziQGkkOWPw68FTJ) |
+| 14 | [Making the Chatbot's Memory Permanent (SQLite Checkpointer)](notes/14-sqlite-persistent-storage.md) | [Video 14](https://youtu.be/c6a47iX5JkU?si=RaPJzoEUrrNDiGqM) |
