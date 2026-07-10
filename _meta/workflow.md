@@ -10,12 +10,14 @@ This repo is a learning vault — the goal is active recall 6 months later, not 
 
 1. **Watch the video.** You don't need to take notes if you're providing the transcript.
 
-2. **Hand it to the agent.** Provide:
-   - The video **transcript** (paste as text — YouTube auto-captions work fine)
-   - The **video link** (YouTube URL)
-   - The **video title / session name**
-   - The **course name** (must match an existing folder, or say it's new)
-   - Any **diagram images** the instructor drew or showed on screen (attach the files)
+2. **Prepare the inbox.** Before starting the session:
+   - Paste the YouTube transcript into `_inbox/transcript.md`
+   - Drop any diagram images into `_inbox/diagrams/`
+
+3. **Hand it to the agent** in a new conversation. Provide in your message:
+   - The **YouTube video link**
+   - The **video title** and **course name**
+   - (The agent reads the transcript and diagrams from `_inbox/` automatically)
 
 3. **The agent produces:**
    - **Long note** → `<course>/notes/NN-slug.md` — deep coverage of everything discussed

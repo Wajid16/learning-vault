@@ -17,22 +17,32 @@ A personal learning vault for the **CampusX (Nitish Singh) AI Engineer roadmap**
 
 ## How a Note Session Works
 
-### Inputs the user provides
-1. **Video transcript** — pasted as text (may be raw YouTube auto-captions with no punctuation, or a clean transcript). Treat it as a pointer to what was covered — understand the topic from it, don't just reformat it.
-2. **Video link** — YouTube URL for the source video.
-3. **Video title / session name** — the note's title.
-4. **Course name** — which course folder the note belongs to.
-5. **Diagrams** *(optional)* — image files the user attaches that the instructor drew or showed. Embed them in the long note using the [Assets Convention](#assets-convention) below.
+### Where to find the inputs
+
+- **Transcript** → `_inbox/transcript.md` — the user pastes the raw YouTube auto-generated transcript here. **After writing the notes, clear this file** (leave only the header comment, no transcript text).
+- **Diagrams** → `_inbox/diagrams/` — the user drops image files here. **After embedding each image in the long note, delete the source file** from this folder. Do not leave images behind after use.
+- **Video link** — always provided in the user's chat message (it's not in the transcript). You **always need the video link** — if the user hasn't provided one, ask before proceeding.
+- **Video title / session name** — provided in the user's chat message.
+- **Course name** — provided in the user's chat message.
+
+### Handling YouTube auto-captions
+
+YouTube auto-captions have **no punctuation and no paragraph breaks** — they're a wall of run-on text. When reading them:
+- Don't try to correct grammar. Read for meaning and topic coverage.
+- Ignore filler words ("uh", "um", "you know", "right") and repeated phrases.
+- Use the structure of the *topic* (not the structure of the captions) to organize the note sections.
+- If a section of captions is unclear, use your knowledge of the topic to fill in what was likely being explained, and note it as "inferred from context" if genuinely uncertain.
 
 ### What you produce
 For each video session:
 
 1. **Long note** → `<course>/notes/NN-slug.md` — deep, unlimited depth, covers **everything** the instructor discussed (why, what, how, examples, analogies, interview angles, code). Use [`templates/long-note-template.md`](templates/long-note-template.md).
-2. **Short note** → `<course>/notes/NN-slug-short.md` — cheat-sheet / quick-reference card. Use [`templates/short-note-template.md`](templates/short-note-template.md).
+2. **Short note** → `<course>/notes/NN-slug-short.md` — quick overview card: the user reads this when they want a fast refresher without opening the long note. Use [`templates/short-note-template.md`](templates/short-note-template.md).
 3. **Update** `<course>/README.md` — add the new session to the progress table (both notes, with links).
 4. **Update** `ROADMAP.md` — tick off any roadmap items that were covered in this session.
 5. **Update** `_meta/glossary.md` — if the video introduced a concept that will recur in other courses, add it here (one entry per term, cross-linked back to the note where it first appeared). Don't add course-specific implementation details — only cross-cutting concepts.
-6. **Commit and push** to `origin main`.
+6. **Clean the inbox** — clear `_inbox/transcript.md` (restore to header-only state) and delete any diagram files from `_inbox/diagrams/` that were used.
+7. **Commit and push** to `origin main`.
 
 ### Numbering
 Notes are numbered in **watch order** within each course: `01`, `02`, `03`, ... Short notes get the same number with a `-short` suffix: `01-slug-short.md`.
@@ -54,10 +64,11 @@ All slugs: lowercase, hyphens only, no spaces, max ~5 words.
 
 ## Assets Convention
 
-When the user attaches diagram images:
-- Save to `<course>/assets/<session-number>-<brief-description>.<ext>`
+When diagrams are present in `_inbox/diagrams/`:
+- Copy/move each image to `<course>/assets/<session-number>-<brief-description>.<ext>`
 - In the long note, reference as: `![Diagram: brief description](../assets/01-description.png)`
 - Always write a caption sentence below the image explaining **what it shows and why it matters**.
+- **Delete the original** from `_inbox/diagrams/` after embedding — this folder is a staging area, not storage.
 
 ---
 
@@ -137,15 +148,16 @@ Note: You started some Phase 5–7 courses before finishing Phase 0–4. That's 
 
 ---
 
-## Key Files
+## Key Files & Folders
 
-| File | Purpose |
+| Path | Purpose |
 |---|---|
 | `AGENT.md` *(this file)* | Agent context — read first every conversation |
-| `CLAUDE.md` | Claude Code tool workflow (don't modify) |
 | `ROADMAP.md` | Master AI Engineer roadmap checklist |
 | `README.md` | Human-facing project overview + course table |
+| `_inbox/transcript.md` | Paste YT transcript here — agent clears after use |
+| `_inbox/diagrams/` | Drop diagram images here — agent deletes after embedding |
 | `_meta/glossary.md` | Shared cross-course concept dictionary |
 | `_meta/workflow.md` | Human-readable process description |
 | `templates/long-note-template.md` | Template for deep-dive notes |
-| `templates/short-note-template.md` | Template for cheat-sheet recall cards |
+| `templates/short-note-template.md` | Template for quick-overview recall cards |
