@@ -23,7 +23,7 @@ Organized by roadmap phase. Phases 01 and 02 (ML, Deep Learning) are placeholder
 | [03 AI Engineer](03-ai-engineer/) | `mcp/` | [MCP](03-ai-engineer/mcp/) (CampusX) | 🟡 In progress | 2 |
 | [03 AI Engineer](03-ai-engineer/) | `llm-evals/` | [LLM Evals](03-ai-engineer/llm-evals/) (CampusX) | 🟡 In progress | 4 |
 | [03 AI Engineer](03-ai-engineer/) | `n8n/` | [n8n](03-ai-engineer/n8n/) | ⚪ Not started | 0 |
-| [04 Deployment](04-deployment/) | `fastapi/` | [FastAPI](04-deployment/fastapi/) (CampusX) | ⚪ Not started | 0 |
+| [04 Deployment](04-deployment/) | `fastapi/` | [FastAPI](04-deployment/fastapi/) (CampusX) | 🟡 In progress | 1 |
 | [04 Deployment](04-deployment/) | `docker/` | [Docker](04-deployment/docker/) (CampusX) | 🟡 In progress | 1 |
 | [04 Deployment](04-deployment/) | `pydantic/` | [Pydantic](04-deployment/pydantic/) (CampusX) | ⚪ Not started | 0 |
 

@@ -110,7 +110,7 @@ Flag sparingly — only when something would actively mislead someone following 
 | MCP (CampusX) | `03-ai-engineer/mcp/` | 🟡 In progress | 2 | 0 |
 | LangGraph (CampusX) | `03-ai-engineer/langgraph/` | 🟡 In progress | 14 | 0 |
 | LangChain (CampusX) | `03-ai-engineer/langchain/` | ⚪ Not started | 0 | 0 |
-| FastAPI (CampusX) | `04-deployment/fastapi/` | ⚪ Not started | 0 | 0 |
+| FastAPI (CampusX) | `04-deployment/fastapi/` | 🟡 In progress | 1 | 1 |
 | Docker (CampusX) | `04-deployment/docker/` | 🟡 In progress | 1 | 0 |
 | Pydantic (CampusX) | `04-deployment/pydantic/` | ⚪ Not started | 0 | 0 |
 | n8n | `03-ai-engineer/n8n/` | ⚪ Not started | 0 | 0 |
