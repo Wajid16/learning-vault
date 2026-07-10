@@ -12,6 +12,7 @@ New course folders get added one at a time, only once I've actually started them
 
 | Course | Status | Notes |
 |---|---|---|
+| [Python](python) (CampusX) | in progress | 1 |
 | [LLM Evals](llm-evals) (CampusX) | in progress | 4 |
 | [RAG](rag) | not started | 0 |
 | [MCP](mcp) (CampusX) | in progress | 2 |
@@ -21,6 +22,8 @@ New course folders get added one at a time, only once I've actually started them
 | [Docker](docker) (CampusX) | in progress | 1 |
 | [Pydantic](pydantic) | not started | 0 |
 | [n8n](n8n) | not started | 0 |
+
+[`ROADMAP.md`](ROADMAP.md) — Python course syllabus checklist, updated after each session.
 
 [`_meta/glossary.md`](_meta/glossary.md) — shared concepts referenced across courses.
 
