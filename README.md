@@ -23,7 +23,7 @@ New course folders get added one at a time, only once I've actually started them
 | [Pydantic](pydantic) | not started | 0 |
 | [n8n](n8n) | not started | 0 |
 
-[`ROADMAP.md`](ROADMAP.md) — Python course syllabus checklist, updated after each session.
+[`AGENT.md`](AGENT.md) — agent context file (read first every conversation).
 
 [`_meta/glossary.md`](_meta/glossary.md) — shared concepts referenced across courses.
 

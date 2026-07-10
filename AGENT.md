@@ -39,8 +39,8 @@ For each video session:
 1. **Long note** → `<course>/notes/NN-slug.md` — deep, unlimited depth, covers **everything** the instructor discussed (why, what, how, examples, analogies, interview angles, code). Use [`templates/long-note-template.md`](templates/long-note-template.md).
 2. **Short note** → `<course>/notes/NN-slug-short.md` — quick overview card: the user reads this when they want a fast refresher without opening the long note. Use [`templates/short-note-template.md`](templates/short-note-template.md).
 3. **Update** `<course>/README.md` — add the new session to the progress table (both notes, with links).
-4. **Update** `ROADMAP.md` — tick off any roadmap items that were covered in this session.
-5. **Update** `_meta/glossary.md` — if the video introduced a concept that will recur in other courses, add it here (one entry per term, cross-linked back to the note where it first appeared). Don't add course-specific implementation details — only cross-cutting concepts.
+4. **Update** `_meta/glossary.md` — if the video introduced a concept that will recur in other courses, add it here (one entry per term, cross-linked back to the note where it first appeared). Only cross-cutting concepts — not course-specific details.
+5. **Update the Course Status table** in this file (`AGENT.md`) — increment the note count for the course.
 6. **Clean the inbox** — clear `_inbox/transcript.md` (restore to header-only state) and delete any diagram files from `_inbox/diagrams/` that were used.
 7. **Commit and push** to `origin main`.
 
@@ -117,30 +117,30 @@ Flag sparingly — only when something would actively mislead someone following 
 
 ---
 
-## Full AI Engineer Roadmap
+## AI Engineer Roadmap — Phase Overview
 
-The roadmap is tracked in detail in [`ROADMAP.md`](ROADMAP.md). High-level phase overview:
+This is the full learning path. Track per-topic progress inside each course's own `README.md`.
 
-| Phase | Topic Area | Courses |
-|---|---|---|
-| 0 | **Python Foundations** | Python Core |
-| 1 | **Maths for ML** | Linear Algebra, Calculus, Probability & Stats |
-| 2 | **Machine Learning** | 100 Days of ML |
-| 3 | **Deep Learning & NLP** | DL fundamentals, Transformers, NLP |
-| 4 | **Tooling & Infrastructure** | FastAPI, Docker, Pydantic |
-| 5 | **LLM Ecosystem** | LangChain, RAG |
-| 6 | **Agentic AI** | LangGraph, MCP |
-| 7 | **Evaluation & Production** | LLM Evals, MLOps basics |
-| 8 | **Automation** | n8n |
+| Phase | Topic Area | Courses | Status |
+|---|---|---|---|
+| 0 | **Python Foundations** | Python Core | 🟡 In progress |
+| 1 | **Maths for ML** | Linear Algebra, Calculus, Probability & Stats | ⚪ Not started |
+| 2 | **Machine Learning** | 100 Days of ML | ⚪ Not started |
+| 3 | **Deep Learning & NLP** | DL fundamentals, Transformers, NLP | ⚪ Not started |
+| 4 | **Tooling & Infrastructure** | FastAPI, Docker, Pydantic | 🟡 In progress |
+| 5 | **LLM Ecosystem** | LangChain, RAG | ⚪ Not started |
+| 6 | **Agentic AI** | LangGraph, MCP | 🟡 In progress |
+| 7 | **Evaluation & Production** | LLM Evals | 🟡 In progress |
+| 8 | **Automation** | n8n | ⚪ Not started |
 
-Note: You started some Phase 5–7 courses before finishing Phase 0–4. That's fine — the roadmap is a guide, not a hard constraint.
+Note: Some Phase 5–7 courses were started before finishing Phase 0–4. That's fine — the roadmap is a guide, not a constraint.
 
 ---
 
 ## Ground Rules for Notes
 
 1. **Long note = unlimited depth.** Cover every sub-topic the instructor discussed: why, what, how, analogies, code examples, interview angles. If the instructor used an analogy or example, include it — those are the most memorable parts.
-2. **Short note = cheat-sheet only.** Definitions, key facts, one-liner explanations. Not a summary of the long note — a standalone quick-reference.
+2. **Short note = quick overview.** Key terms, key takeaways, one-liners. Not a summary of the long note — a standalone card the user reads when they want a 60-second refresher.
 3. **"Added Context" is allowed** in the long note — if something the instructor said is outdated or there's a clearly better modern approach, note it under `## Added Context`. Don't editorialize heavily; keep it factual.
 4. **Code examples must run.** If the instructor showed code, include it exactly (or corrected if it's broken by a deprecated API). Add a comment if you've corrected something.
 5. **Interview angles are not optional.** For every technical concept, ask: "How would an interviewer probe this?" Include the likely question and the answer.
@@ -153,7 +153,6 @@ Note: You started some Phase 5–7 courses before finishing Phase 0–4. That's 
 | Path | Purpose |
 |---|---|
 | `AGENT.md` *(this file)* | Agent context — read first every conversation |
-| `ROADMAP.md` | Master AI Engineer roadmap checklist |
 | `README.md` | Human-facing project overview + course table |
 | `_inbox/transcript.md` | Paste YT transcript here — agent clears after use |
 | `_inbox/diagrams/` | Drop diagram images here — agent deletes after embedding |
