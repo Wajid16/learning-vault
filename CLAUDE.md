@@ -1,5 +1,7 @@
 # learning-vault
 
+> **AI agents:** Read [`AGENT.md`](AGENT.md) first — it has the full project context, current course status, conventions, and workflow. This file (CLAUDE.md) is the legacy Claude Code tool config.
+
 Personal course-notes vault. Each note is a distilled understanding of one video, written for active recall (not a transcript archive) and cross-linked across courses. Full rationale in the root `README.md`.
 
 ## How a note gets made
