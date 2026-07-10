@@ -9,6 +9,7 @@ See [`_meta/workflow.md`](../../_meta/workflow.md) for how notes get made.
 | # | Note | Companion Card | Video |
 |---|---|---|---|
 | 01 | [What is an API?](notes/01-what-is-an-api.md) | [01-short](notes/01-what-is-an-api-short.md) | [link](https://youtu.be/WJKsPchji0Q?si=9Pp3bj7lVKvGUT1a) |
+| 02 | [FastAPI Philosophy & Setup](notes/02-fastapi-philosophy-and-setup.md) | [02-short](notes/02-fastapi-philosophy-and-setup-short.md) | [link](https://youtu.be/lXx-_1r0Uss?si=yKlIm7jmcRjvt28t) |
 
 ---
 
@@ -18,8 +19,8 @@ This outline is tracked dynamically as topics are introduced and covered in the 
 
 ### Part 1: FastAPI Fundamentals (🟡 In Progress)
 - [x] **What is an API?** — core concepts, HTTP, JSON, monolithic vs. decoupled architectures.
-- [ ] **FastAPI Setup & Installation** — setting up the environment, installing dependencies.
-- [ ] **Our First API** — building and running a basic FastAPI app.
+- [x] **FastAPI Setup & Installation** — setting up the environment, installing dependencies.
+- [x] **Our First API** — building and running a basic FastAPI app.
 - [ ] **Routing & HTTP Methods** — GET, POST, PUT, DELETE requests.
 - [ ] **Parameters & Request Bodies** — path parameters, query parameters, and Pydantic models.
 - [ ] **Responses & Status Codes** — returning custom headers, status codes, and JSON payloads.

@@ -62,3 +62,10 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 
 **API (Application Programming Interface)** — a standardized software connector that allows two different applications to communicate using a defined set of rules, protocols, and data formats. First seen in: [fastapi/notes/01-what-is-an-api.md](../04-deployment/fastapi/notes/01-what-is-an-api.md).
 
+**ASGI (Asynchronous Server Gateway Interface)** — a modern standard interface for asynchronous Python web applications and servers, allowing concurrent and non-blocking request handling. First seen in: [fastapi/notes/02-fastapi-philosophy-and-setup.md](../04-deployment/fastapi/notes/02-fastapi-philosophy-and-setup.md).
+
+**WSGI (Web Server Gateway Interface)** — a legacy standard interface for synchronous Python web applications, processing requests in a blocking, one-at-a-time manner. First seen in: [fastapi/notes/02-fastapi-philosophy-and-setup.md](../04-deployment/fastapi/notes/02-fastapi-philosophy-and-setup.md).
+
+**Uvicorn** — a lightning-fast ASGI web server implementation used to run asynchronous Python applications (like FastAPI). First seen in: [fastapi/notes/02-fastapi-philosophy-and-setup.md](../04-deployment/fastapi/notes/02-fastapi-philosophy-and-setup.md).
+
+
