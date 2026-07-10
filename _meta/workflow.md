@@ -19,6 +19,15 @@ This repo is a learning vault — the goal is active recall 6 months later, not 
    - The **video title** and **course name**
    - (The agent reads the transcript and diagrams from `_inbox/` automatically)
 
+### Starting a New Course
+When you begin a new course, start a new conversation and:
+1. Provide the **course name** and a **topic outline** of what the course covers.
+2. The agent will:
+   - Create the course folder under the appropriate phase (e.g. `03-ai-engineer/langchain/`).
+   - Create a course-specific `README.md` containing the topic outline.
+   - Update the root `README.md` and `AGENT.md` status tables.
+3. During the course, the agent tracks covered vs. left-to-cover topics using this outline.
+
 4. **The agent produces:**
    - **Long note** → `<course>/notes/NN-slug.md` — deep coverage of everything discussed
    - **Short note** → `<course>/notes/NN-slug-short.md` — quick overview card
@@ -48,8 +57,9 @@ This repo is a learning vault — the goal is active recall 6 months later, not 
 - Template: [`templates/short-note-template.md`](../templates/short-note-template.md)
 
 ### Cross-linking
-- **Link, don't repeat.** If a concept was explained in a previous note, link to it.
-- Cross-course concepts → define in `_meta/glossary.md`, link from every note that uses it.
+- **Self-contained notes.** Do NOT link notes or topics of one course to notes in other courses (e.g. no links from LangGraph to MCP).
+- **Same-course links:** You may link to notes *within the same course* when they build directly upon each other.
+- **Glossary linking:** Link technical terms to definitions in `_meta/glossary.md` if they are shared concepts. Do not link across different courses directly.
 
 ### Diagrams
 - Save to `<course>/assets/<NN>-<description>.<ext>`

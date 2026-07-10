@@ -9,7 +9,7 @@
 
 A personal learning vault for the **CampusX (Nitish Singh) AI Engineer roadmap** — a 1+ year structured path from Python fundamentals through to Agentic AI and LLM production systems. Each video gets two notes: a **long deep-dive note** and a **short recall card**. Notes are written in Markdown, stored in a Git repo, and cross-linked to prevent siloed knowledge.
 
-**Repo:** `https://github.com/Wajid16/learning-vault.git`
+**Repo:** `https://github.com/Wajid16/ai-engineer-vault.git`
 **Local root:** `c:\Users\Me\Documents\course-notes\`
 **Branch:** `main` — commit and push after every session.
 
@@ -43,6 +43,13 @@ For each video session:
 5. **Update the Course Status table** in this file (`AGENT.md`) — increment the note count for the course.
 6. **Clean the inbox** — clear `_inbox/transcript.md` (restore to header-only state) and delete any diagram files from `_inbox/diagrams/` that were used.
 7. **Commit and push** to `origin main`.
+
+### New Course Setup
+When the user starts a new course, they will provide a topic outline in the conversation. The agent must:
+1. Create the new course directory under the correct phase folder (e.g. `03-ai-engineer/langchain/` or `04-deployment/fastapi/`).
+2. Create the course's `README.md` file and paste the provided outline there.
+3. Update the course status tables in `AGENT.md` and `README.md` (root).
+4. Use this course-specific `README.md` outline during the course to track what has been covered so far and what is left.
 
 ### Numbering
 Notes are numbered in **watch order** within each course: `01`, `02`, `03`, ... Short notes get the same number with a `-short` suffix: `01-slug-short.md`.
@@ -87,10 +94,9 @@ Flag sparingly — only when something would actively mislead someone following 
 
 ## Cross-Linking Rules
 
-- **Don't repeat, link.** If a concept was explained in a previous note or in the glossary, link to it — don't re-explain it.
-- **Glossary first.** If a term crosses course boundaries (e.g., "structured output", "checkpointing", "embeddings"), define it in `_meta/glossary.md` and link from every note that uses it.
-- **Within-course links:** use relative paths, e.g., `[note 03](../notes/03-langchain-vs-langgraph.md)`.
-- **Cross-course links:** use relative paths from the repo root, e.g., `[glossary entry](../../_meta/glossary.md#term)`.
+- **Keep notes self-contained.** Do NOT link topics or notes from one course to notes in another course (e.g., do not link a LangGraph note to an MCP or LLM Evals note).
+- **Within-course links:** You can link to other notes *within the same course* (e.g., `[note 03](../notes/03-langchain-vs-langgraph.md)`) if they directly build on each other.
+- **Glossary linking:** You can link to the global glossary in `_meta/glossary.md` for shared, cross-cutting technical concepts (e.g., `[structured output](../../_meta/glossary.md#structured-output)`). Do not link directly between different courses.
 
 ---
 
@@ -98,20 +104,16 @@ Flag sparingly — only when something would actively mislead someone following 
 
 | Course | Folder | Status | Long Notes | Short Notes |
 |---|---|---|---|---|
-| Python Core (CampusX) | `python/` | 🟡 In progress | 1 | 0 |
-| LLM Evals (CampusX) | `llm-evals/` | 🟡 In progress | 4 | 0 |
-| RAG (CampusX) | `rag/` | ⚪ Not started | 0 | 0 |
-| MCP (CampusX) | `mcp/` | 🟡 In progress | 2 | 0 |
-| LangGraph (CampusX) | `langgraph/` | 🟡 In progress | 14 | 0 |
-| LangChain (CampusX) | `langchain/` | ⚪ Not started | 0 | 0 |
-| FastAPI (CampusX) | `fastapi/` | ⚪ Not started | 0 | 0 |
-| Docker (CampusX) | `docker/` | 🟡 In progress | 1 | 0 |
-| Pydantic (CampusX) | `pydantic/` | ⚪ Not started | 0 | 0 |
-| n8n | `n8n/` | ⚪ Not started | 0 | 0 |
-| Scientific Writing | `non-technical/scientific-writing/` | 🟡 In progress | 5 | 0 |
-| IELTS | `non-technical/ielts/` | ⚪ Not started | 0 | 0 |
-| English | `non-technical/english/` | 🟡 In progress | 2 | 0 |
-| Freelancing | `non-technical/freelancing/` | ⚪ Not started | 0 | 0 |
+| Python Core (CampusX) | `00-prerequisites/python/` | 🟡 In progress | 1 | 0 |
+| LLM Evals (CampusX) | `03-ai-engineer/llm-evals/` | 🟡 In progress | 4 | 0 |
+| RAG (CampusX) | `03-ai-engineer/rag/` | ⚪ Not started | 0 | 0 |
+| MCP (CampusX) | `03-ai-engineer/mcp/` | 🟡 In progress | 2 | 0 |
+| LangGraph (CampusX) | `03-ai-engineer/langgraph/` | 🟡 In progress | 14 | 0 |
+| LangChain (CampusX) | `03-ai-engineer/langchain/` | ⚪ Not started | 0 | 0 |
+| FastAPI (CampusX) | `04-deployment/fastapi/` | ⚪ Not started | 0 | 0 |
+| Docker (CampusX) | `04-deployment/docker/` | 🟡 In progress | 1 | 0 |
+| Pydantic (CampusX) | `04-deployment/pydantic/` | ⚪ Not started | 0 | 0 |
+| n8n | `03-ai-engineer/n8n/` | ⚪ Not started | 0 | 0 |
 
 > Update this table after every session. When a course is fully complete, mark it ✅.
 

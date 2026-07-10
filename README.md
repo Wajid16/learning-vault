@@ -6,34 +6,29 @@ Why this exists: I'd finish a course on ML, or Pydantic, or LangChain, and a mon
 
 See [`_meta/workflow.md`](_meta/workflow.md) for how a note gets made.
 
-## Courses
+---
 
-New course folders get added one at a time, only once I've actually started them — no scaffolding ahead of time.
+## Technical Courses — AI Engineer Path
 
-| Course | Status | Notes |
-|---|---|---|
-| [Python](python) (CampusX) | in progress | 1 |
-| [LLM Evals](llm-evals) (CampusX) | in progress | 4 |
-| [RAG](rag) | not started | 0 |
-| [MCP](mcp) (CampusX) | in progress | 2 |
-| [LangGraph](langgraph) (CampusX) | in progress | 14 |
-| [LangChain](langchain) | not started | 0 |
-| [FastAPI](fastapi) | not started | 0 |
-| [Docker](docker) (CampusX) | in progress | 1 |
-| [Pydantic](pydantic) | not started | 0 |
-| [n8n](n8n) | not started | 0 |
+Organized by roadmap phase. Phases 01 and 02 (ML, Deep Learning) are placeholders — courses added when started.
+
+| Phase | Folder | Course | Status | Notes |
+|---|---|---|---|---|
+| [00 Prerequisites](00-prerequisites/) | `python/` | [Python](00-prerequisites/python/) (CampusX) | 🟡 In progress | 1 |
+| [01 Machine Learning](01-machine-learning/) | — | — | ⚪ Not started | — |
+| [02 Deep Learning](02-deep-learning/) | — | — | ⚪ Not started | — |
+| [03 AI Engineer](03-ai-engineer/) | `langchain/` | [LangChain](03-ai-engineer/langchain/) (CampusX) | ⚪ Not started | 0 |
+| [03 AI Engineer](03-ai-engineer/) | `rag/` | [RAG](03-ai-engineer/rag/) (CampusX) | ⚪ Not started | 0 |
+| [03 AI Engineer](03-ai-engineer/) | `langgraph/` | [LangGraph](03-ai-engineer/langgraph/) (CampusX) | 🟡 In progress | 14 |
+| [03 AI Engineer](03-ai-engineer/) | `mcp/` | [MCP](03-ai-engineer/mcp/) (CampusX) | 🟡 In progress | 2 |
+| [03 AI Engineer](03-ai-engineer/) | `llm-evals/` | [LLM Evals](03-ai-engineer/llm-evals/) (CampusX) | 🟡 In progress | 4 |
+| [03 AI Engineer](03-ai-engineer/) | `n8n/` | [n8n](03-ai-engineer/n8n/) | ⚪ Not started | 0 |
+| [04 Deployment](04-deployment/) | `fastapi/` | [FastAPI](04-deployment/fastapi/) (CampusX) | ⚪ Not started | 0 |
+| [04 Deployment](04-deployment/) | `docker/` | [Docker](04-deployment/docker/) (CampusX) | 🟡 In progress | 1 |
+| [04 Deployment](04-deployment/) | `pydantic/` | [Pydantic](04-deployment/pydantic/) (CampusX) | ⚪ Not started | 0 |
 
 [`AGENT.md`](AGENT.md) — agent context file (read first every conversation).
 
 [`_meta/glossary.md`](_meta/glossary.md) — shared concepts referenced across courses.
 
-## Beyond Tech
 
-Same format, same recall goal, non-technical subjects — kept separate from the technical courses above so each stays easy to skim on its own.
-
-| Course | Status | Notes |
-|---|---|---|
-| [Scientific Writing](non-technical/scientific-writing) | in progress | 5 |
-| [IELTS](non-technical/ielts) | not started | 0 |
-| [English](non-technical/english) | in progress | 2 |
-| [Freelancing](non-technical/freelancing) | not started | 0 |
