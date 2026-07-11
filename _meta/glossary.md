@@ -72,5 +72,12 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 
 **HTTP Methods** — standardized request verbs (e.g., GET, POST, PUT, DELETE) used in the HTTP protocol to inform a web server of the action a client wants to perform. First seen in: [fastapi/notes/03-http-methods-and-project-setup.md](../04-deployment/fastapi/notes/03-http-methods-and-project-setup.md).
 
+**Path Parameter** — dynamic segment of an API endpoint path (URL) used to target and uniquely identify a specific resource. First seen in: [fastapi/notes/04-path-and-query-parameters.md](../04-deployment/fastapi/notes/04-path-and-query-parameters.md).
+
+**Query Parameter** — optional key-value pair appended to the end of a URL after a question mark (`?`) to sort, filter, search, or paginate a list of resources. First seen in: [fastapi/notes/04-path-and-query-parameters.md](../04-deployment/fastapi/notes/04-path-and-query-parameters.md).
+
+**HTTP Status Code** — standard 3-digit code returned by the server (e.g., 200, 400, 404, 500) indicating the execution result of an HTTP request. First seen in: [fastapi/notes/04-path-and-query-parameters.md](../04-deployment/fastapi/notes/04-path-and-query-parameters.md).
+
+
 
 
