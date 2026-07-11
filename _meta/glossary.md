@@ -68,4 +68,9 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 
 **Uvicorn** — a lightning-fast ASGI web server implementation used to run asynchronous Python applications (like FastAPI). First seen in: [fastapi/notes/02-fastapi-philosophy-and-setup.md](../04-deployment/fastapi/notes/02-fastapi-philosophy-and-setup.md).
 
+**CRUD (Create, Read, Update, Delete)** — the four fundamental actions representing data storage interactions in persistent dynamic systems. First seen in: [fastapi/notes/03-http-methods-and-project-setup.md](../04-deployment/fastapi/notes/03-http-methods-and-project-setup.md).
+
+**HTTP Methods** — standardized request verbs (e.g., GET, POST, PUT, DELETE) used in the HTTP protocol to inform a web server of the action a client wants to perform. First seen in: [fastapi/notes/03-http-methods-and-project-setup.md](../04-deployment/fastapi/notes/03-http-methods-and-project-setup.md).
+
+
 
