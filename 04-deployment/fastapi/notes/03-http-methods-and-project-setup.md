@@ -1,7 +1,7 @@
 # HTTP Methods & Project Setup in FastAPI
 
-> 🎥 [https://youtu.be/O8KrViWNhOM?si=_zCr-cRvXY8YP2cG](https://youtu.be/O8KrViWNhOM?si=_zCr-cRvXY8YP2cG) · 📅 July 11, 2026 · 📚 FastAPI (CampusX)
-> Short note: [03-http-methods-and-project-setup-short.md](03-http-methods-and-project-setup-short.md)
+> 🎥 [HTTP Methods in FastAPI](https://youtu.be/O8KrViWNhOM?si=_zCr-cRvXY8YP2cG) · 📅 July 11, 2026 · 📚 FastAPI (CampusX)
+> Quick Recall: [FastAPI — Quick Recall](quick-recall.md#03-http-methods-project-setup)
 
 ---
 

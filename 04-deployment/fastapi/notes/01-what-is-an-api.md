@@ -1,7 +1,7 @@
 # What is an API? | Introduction to APIs | FAST API for Machine Learning | CampusX
 
-> 🎥 [https://youtu.be/WJKsPchji0Q?si=9Pp3bj7lVKvGUT1a](https://youtu.be/WJKsPchji0Q?si=9Pp3bj7lVKvGUT1a) · 📅 July 10, 2026 · 📚 FastAPI (CampusX)
-> Short note: [01-what-is-an-api-short.md](01-what-is-an-api-short.md)
+> 🎥 [What is an API? | Introduction to APIs](https://youtu.be/WJKsPchji0Q?si=9Pp3bj7lVKvGUT1a) · 📅 July 10, 2026 · 📚 FastAPI (CampusX)
+> Quick Recall: [FastAPI — Quick Recall](quick-recall.md#01-what-is-an-api)
 
 ---
 

@@ -1,7 +1,7 @@
 # Path & Query Parameters in FastAPI
 
-> 🎥 [https://youtu.be/VVVKEfhXCQ4?si=m-mil49kVLkVygtx](https://youtu.be/VVVKEfhXCQ4?si=m-mil49kVLkVygtx) · 📅 July 11, 2026 · 📚 FastAPI (CampusX)
-> Short note: [04-path-and-query-parameters-short.md](04-path-and-query-parameters-short.md)
+> 🎥 [Path & Query Params in FastAPI](https://youtu.be/VVVKEfhXCQ4?si=m-mil49kVLkVygtx) · 📅 July 11, 2026 · 📚 FastAPI (CampusX)
+> Quick Recall: [FastAPI — Quick Recall](quick-recall.md#04-path-query-parameters)
 
 ---
 

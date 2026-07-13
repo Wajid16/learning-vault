@@ -8,10 +8,10 @@ See [`_meta/workflow.md`](../../_meta/workflow.md) for how notes get made.
 
 | # | Note | Companion Card | Video |
 |---|---|---|---|
-| 01 | [What is an API?](notes/01-what-is-an-api.md) | [01-short](notes/01-what-is-an-api-short.md) | [link](https://youtu.be/WJKsPchji0Q?si=9Pp3bj7lVKvGUT1a) |
-| 02 | [FastAPI Philosophy & Setup](notes/02-fastapi-philosophy-and-setup.md) | [02-short](notes/02-fastapi-philosophy-and-setup-short.md) | [link](https://youtu.be/lXx-_1r0Uss?si=yKlIm7jmcRjvt28t) |
-| 03 | [HTTP Methods & Project Setup](notes/03-http-methods-and-project-setup.md) | [03-short](notes/03-http-methods-and-project-setup-short.md) | [link](https://youtu.be/O8KrViWNhOM?si=_zCr-cRvXY8YP2cG) |
-| 04 | [Path & Query Parameters](notes/04-path-and-query-parameters.md) | [04-short](notes/04-path-and-query-parameters-short.md) | [link](https://youtu.be/VVVKEfhXCQ4?si=m-mil49kVLkVygtx) |
+| 01 | [What is an API?](notes/01-what-is-an-api.md) | [01-short](notes/quick-recall.md#01-what-is-an-api) | [link](https://youtu.be/WJKsPchji0Q?si=9Pp3bj7lVKvGUT1a) |
+| 02 | [FastAPI Philosophy & Setup](notes/02-fastapi-philosophy-and-setup.md) | [02-short](notes/quick-recall.md#02-fastapi-philosophy-setup) | [link](https://youtu.be/lXx-_1r0Uss?si=yKlIm7jmcRjvt28t) |
+| 03 | [HTTP Methods & Project Setup](notes/03-http-methods-and-project-setup.md) | [03-short](notes/quick-recall.md#03-http-methods-project-setup) | [link](https://youtu.be/O8KrViWNhOM?si=_zCr-cRvXY8YP2cG) |
+| 04 | [Path & Query Parameters](notes/04-path-and-query-parameters.md) | [04-short](notes/quick-recall.md#04-path-query-parameters) | [link](https://youtu.be/VVVKEfhXCQ4?si=m-mil49kVLkVygtx) |
 
 ---
 

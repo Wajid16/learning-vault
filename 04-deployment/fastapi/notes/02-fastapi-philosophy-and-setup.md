@@ -1,7 +1,7 @@
 # FastAPI Philosophy, Installation, & Hello World
 
-> 🎥 [https://youtu.be/lXx-_1r0Uss?si=yKlIm7jmcRjvt28t](https://youtu.be/lXx-_1r0Uss?si=yKlIm7jmcRjvt28t) · 📅 July 10, 2026 · 📚 FastAPI (CampusX)
-> Short note: [02-fastapi-philosophy-and-setup-short.md](02-fastapi-philosophy-and-setup-short.md)
+> 🎥 [FastAPI Philosophy | How to setup FastAPI | Installation and Code Demo](https://youtu.be/lXx-_1r0Uss?si=yKlIm7jmcRjvt28t) · 📅 July 10, 2026 · 📚 FastAPI (CampusX)
+> Quick Recall: [FastAPI — Quick Recall](quick-recall.md#02-fastapi-philosophy-setup)
 
 ---
 

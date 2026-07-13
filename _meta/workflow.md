@@ -1,6 +1,6 @@
 # How notes get made
 
-This repo is a learning vault — the goal is active recall 6 months later, not archiving transcripts. Each video session produces two notes: a **long deep-dive** and a **short quick-overview card**.
+This repo is a learning vault — the goal is active recall 6 months later, not archiving transcripts. Each video session produces a **long deep-dive note** and a **short quick-overview card** (appended to the course's single `quick-recall.md` file).
 
 > **For the AI agent:** Read [`AGENT.md`](../AGENT.md) first — it has everything needed (context, current status, conventions, naming rules). This file is for the human.
 
@@ -23,14 +23,15 @@ This repo is a learning vault — the goal is active recall 6 months later, not 
 When you begin a new course, start a new conversation and:
 1. Provide the **course name** and a **topic outline** of what the course covers.
 2. The agent will:
-   - Create the course folder under the appropriate phase (e.g. `03-ai-engineer/langchain/`).
-   - Create a course-specific `README.md` containing the topic outline.
-   - Update the root `README.md` and `AGENT.md` status tables.
+    - Create the course folder under the appropriate phase (e.g. `03-ai-engineer/langchain/`).
+    - Create a course-specific `README.md` containing the topic outline.
+    - Create an empty `notes/quick-recall.md` file starting with `# <Course Name> — Quick Recall` as the main header.
+    - Update the root `README.md` and `AGENT.md` status tables.
 3. During the course, the agent tracks covered vs. left-to-cover topics using this outline.
 
 4. **The agent produces:**
    - **Long note** → `<course>/notes/NN-slug.md` — deep coverage of everything discussed
-   - **Short note** → `<course>/notes/NN-slug-short.md` — quick overview card
+   - **Short note** → Append a section to `<course>/notes/quick-recall.md` — quick overview card
    - **Updated** `<course>/README.md` (new row in the progress table)
    - **Updated** `_meta/glossary.md` (if a new cross-course term was introduced)
    - **Updated** Course Status table in `AGENT.md` (note count incremented)
@@ -51,7 +52,7 @@ When you begin a new course, start a new conversation and:
 - Template: [`templates/long-note-template.md`](../templates/long-note-template.md)
 
 ### Short note
-- **Quick overview card.** Someone should be able to skim it in 60 seconds and remember what the video was about.
+- **Quick overview card.** Appended as a section to `<course>/notes/quick-recall.md`. Someone should be able to skim it in 60 seconds and remember what the video was about.
 - Key terms, one-liner definitions, 3–7 bullets of what matters most.
 - Not a summary of the long note — a complementary quick-reference.
 - Template: [`templates/short-note-template.md`](../templates/short-note-template.md)
@@ -72,7 +73,7 @@ When you begin a new course, start a new conversation and:
 
 ```
 <course>/notes/01-short-descriptive-slug.md          ← long note
-<course>/notes/01-short-descriptive-slug-short.md    ← short recall card
+<course>/notes/quick-recall.md                       ← combined quick recall cards (single file)
 <course>/assets/01-description-of-diagram.png        ← diagram image
 <course>/README.md                                   ← course progress table
 ```

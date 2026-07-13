@@ -1,7 +1,7 @@
 # {{Video Title}}
 
-> 🎥 [{{video-link}}]({{video-link}}) · 📅 {{date}} · 📚 {{course}}
-> Short note: [{{NN}}-{{slug}}-short.md]({{NN}}-{{slug}}-short.md)
+> 🎥 [{{Video Title}}]({{video-link}}) · 📅 {{date}} · 📚 {{course}}
+> Quick Recall: [FastAPI — Quick Recall](quick-recall.md#{{slug}})
 
 ---
 
@@ -86,4 +86,4 @@ If the instructor used an analogy or real-world example, include it here verbati
 4. *(optional)* {{A harder edge-case or interview-level question}}
 
 ---
-<!-- Long note complete. Companion: [short note]({{NN}}-{{slug}}-short.md) -->
+<!-- Long note complete. Companion: [Quick Recall](quick-recall.md#{{slug}}) -->

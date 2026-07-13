@@ -10,7 +10,7 @@
 A personal learning vault for the **CampusX (Nitish Singh) AI Engineer roadmap** — a 1+ year structured path from Python fundamentals through to Agentic AI and LLM production systems. Each video gets two notes: a **long deep-dive note** and a **short recall card**. Notes are written in Markdown, stored in a Git repo, and cross-linked to prevent siloed knowledge.
 
 **Repo:** `https://github.com/Wajid16/ai-engineer-vault.git`
-**Local root:** `c:\Users\Me\Documents\course-notes\`
+**Local root:** `c:\Users\Me\Documents\AI-Engineer-Vault\`
 **Branch:** `main` — commit and push after every session.
 
 ---
@@ -37,8 +37,8 @@ YouTube auto-captions have **no punctuation and no paragraph breaks** — they'r
 For each video session:
 
 1. **Long note** → `<course>/notes/NN-slug.md` — deep, unlimited depth, covers **everything** the instructor discussed (why, what, how, examples, analogies, interview angles, code). Use [`templates/long-note-template.md`](templates/long-note-template.md).
-2. **Short note** → `<course>/notes/NN-slug-short.md` — quick overview card: the user reads this when they want a fast refresher without opening the long note. Use [`templates/short-note-template.md`](templates/short-note-template.md).
-3. **Update** `<course>/README.md` — add the new session to the progress table (both notes, with links).
+2. **Short note** → Append a section to `<course>/notes/quick-recall.md` — quick overview card: a standalone card for 60-second refresher. Use [`templates/short-note-template.md`](templates/short-note-template.md).
+3. **Update** `<course>/README.md` — add the new session to the progress table (linking to the long note and the section anchor in `notes/quick-recall.md`).
 4. **Update** `_meta/glossary.md` — if the video introduced a concept that will recur in other courses, add it here (one entry per term, cross-linked back to the note where it first appeared). Only cross-cutting concepts — not course-specific details.
 5. **Update the Course Status table** in this file (`AGENT.md`) — increment the note count for the course.
 6. **Clean the inbox** — clear `_inbox/transcript.md` (restore to header-only state) and delete any diagram files from `_inbox/diagrams/` that were used.
@@ -48,11 +48,12 @@ For each video session:
 When the user starts a new course, they will provide a topic outline in the conversation. The agent must:
 1. Create the new course directory under the correct phase folder (e.g. `03-ai-engineer/langchain/` or `04-deployment/fastapi/`).
 2. Create the course's `README.md` file and paste the provided outline there.
-3. Update the course status tables in `AGENT.md` and `README.md` (root).
-4. Use this course-specific `README.md` outline during the course to track what has been covered so far and what is left.
+3. Create the initial `notes/quick-recall.md` file, starting with `# <Course Name> — Quick Recall` as the main header.
+4. Update the course status tables in `AGENT.md` and `README.md` (root).
+5. Use this course-specific `README.md` outline during the course to track what has been covered so far and what is left.
 
 ### Numbering
-Notes are numbered in **watch order** within each course: `01`, `02`, `03`, ... Short notes get the same number with a `-short` suffix: `01-slug-short.md`.
+Notes are numbered in **watch order** within each course: `01`, `02`, `03`, ... Each note section inside `notes/quick-recall.md` uses the same number/header for easy linking.
 
 ---
 
@@ -60,7 +61,7 @@ Notes are numbered in **watch order** within each course: `01`, `02`, `03`, ... 
 
 ```
 <course>/notes/01-short-descriptive-slug.md          ← long note
-<course>/notes/01-short-descriptive-slug-short.md    ← short recall card
+<course>/notes/quick-recall.md                       ← combined quick recall cards (single file)
 <course>/assets/01-description-of-diagram.png        ← embedded image
 <course>/README.md                                   ← course progress table
 ```
@@ -142,7 +143,7 @@ Note: Some Phase 5–7 courses were started before finishing Phase 0–4. That's
 ## Ground Rules for Notes
 
 1. **Long note = unlimited depth.** Cover every sub-topic the instructor discussed: why, what, how, analogies, code examples, interview angles. If the instructor used an analogy or example, include it — those are the most memorable parts.
-2. **Short note = quick overview.** Key terms, key takeaways, one-liners. Not a summary of the long note — a standalone card the user reads when they want a 60-second refresher.
+2. **Short note = quick overview.** Key terms, key takeaways, one-liners, appended as a section to `<course>/notes/quick-recall.md`. Not a summary of the long note — a standalone card the user reads when they want a 60-second refresher.
 3. **"Added Context" is allowed** in the long note — if something the instructor said is outdated or there's a clearly better modern approach, note it under `## Added Context`. Don't editorialize heavily; keep it factual.
 4. **Code examples must run.** If the instructor showed code, include it exactly (or corrected if it's broken by a deprecated API). Add a comment if you've corrected something.
 5. **Interview angles are not optional.** For every technical concept, ask: "How would an interviewer probe this?" Include the likely question and the answer.
@@ -161,4 +162,4 @@ Note: Some Phase 5–7 courses were started before finishing Phase 0–4. That's
 | `_meta/glossary.md` | Shared cross-course concept dictionary |
 | `_meta/workflow.md` | Human-readable process description |
 | `templates/long-note-template.md` | Template for deep-dive notes |
-| `templates/short-note-template.md` | Template for quick-overview recall cards |
+| `templates/short-note-template.md` | Section block template appended to quick-recall.md |
