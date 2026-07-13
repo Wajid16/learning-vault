@@ -72,3 +72,38 @@ Covers six types of operators, the sum of digits extraction problem, branch logi
 - How do membership operators achieve $O(1)$ search time on sets and dictionaries?
 - Write a `for` loop that prints numbers from 10 down to 1 using `range()`.
 
+---
+
+## 03. Python Strings
+
+**Video:** [Session 3 - Python Strings](https://www.youtube.com/live/6HAu0Y9BjA4?si=G0nzYrn6otXGAGPQ) · **Date:** 9 Nov 2022
+→ Deep-dive: [03-python-strings.md](03-python-strings.md)
+
+### TL;DR
+Covers loop wrap-up, Unicode character encoding, positive/negative indexing, string slicing rules, mutability limits, lexicographical and logical string evaluations, key methods (`split()`, `join()`, `strip()`), and algorithmic string solutions.
+
+### Key Points
+* **Unicode Default** — Python represents characters using 16-bit to 32-bit Unicode mapping, enabling emojis and multi-language handling, unlike standard 8-bit ASCII.
+* **Negative Slicing** — Ex: `s[::-1]` reverses a string. For negative step sizes, the `start` parameter must be numerically greater than `stop`.
+* **Mutability constraint** — Strings are immutable. Actions trying to execute in-place edits (e.g. `s[0] = 'H'` or `del s[0]`) raise a `TypeError`.
+* **Logical behavior** — Non-empty strings act as `True`, empty strings (`""`) as `False`. Evaluation short-circuits (`and` returns first false/last term, `or` returns first true term).
+* **Lexicographical comparison** — Relational checks analyze values alphabetical-order wise based on Unicode codes (meaning uppercase chars `<` lowercase chars).
+* **Split & Join operations** — `split("delim")` slices strings into lists of substrings; `join(list)` constructs strings from lists of text components.
+
+### Terms Introduced
+| Term | Definition (one line) |
+|---|---|
+| **Unicode** | A comprehensive character encoding system mapping text characters from global languages and symbols. |
+| **IndexError** | Error raised when a program tries to access an index position outside of active string boundaries. |
+| **Immutability** | Memory structure constraint preventing in-place updates of data objects after creation. |
+| **Lexicographical order** | Dictionary-based character order evaluated using Unicode character numerical values. |
+| **Short-Circuit Evaluation** | Logical evaluation path stopping as soon as the final boolean result is determined. |
+| **Whitespace stripping** | Removing leading and trailing whitespace characters (e.g., spaces, tabs, newlines) via `.strip()`. |
+
+### Self-Test
+- What error is raised by `s[0] = 'H'` and why does it happen?
+- What will `"hello" and "world"` evaluate to and why?
+- Write a slice expression that extracts every second character from index 1 to 7.
+- Implement word counting for a string without calling the built-in `.split()` method.
+
+

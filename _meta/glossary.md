@@ -92,3 +92,10 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 
 **while-else loop** — A Python-specific loop construct whose `else` block executes only when the loop terminates naturally without hitting a `break`. First seen in: [python/notes/02-operators-if-else-loops.md](../00-prerequisites/python/notes/02-operators-if-else-loops.md).
 
+**Immutability** — A memory management constraint preventing in-place modifications to an object (e.g. Python strings) after creation. First seen in: [python/notes/03-python-strings.md](../00-prerequisites/python/notes/03-python-strings.md).
+
+**Lexicographical Comparison** — The alphabetical comparison of strings based on the numeric Unicode values of their characters. First seen in: [python/notes/03-python-strings.md](../00-prerequisites/python/notes/03-python-strings.md).
+
+**Short-Circuit Evaluation** — A logical operator behavior where evaluation stops as soon as the overall truth value is determined. First seen in: [python/notes/03-python-strings.md](../00-prerequisites/python/notes/03-python-strings.md).
+
+

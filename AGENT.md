@@ -105,7 +105,7 @@ Flag sparingly — only when something would actively mislead someone following 
 
 | Course | Folder | Status | Long Notes | Short Notes |
 |---|---|---|---|---|
-| Python for AI Engineering (CampusX) | `00-prerequisites/python/` | 🟡 In progress | 2 | 2 |
+| Python for AI Engineering (CampusX) | `00-prerequisites/python/` | 🟡 In progress | 3 | 3 |
 | LLM Evals (CampusX) | `03-ai-engineer/llm-evals/` | 🟡 In progress | 4 | 0 |
 | RAG (CampusX) | `03-ai-engineer/rag/` | ⚪ Not started | 0 | 0 |
 | MCP (CampusX) | `03-ai-engineer/mcp/` | 🟡 In progress | 2 | 0 |
