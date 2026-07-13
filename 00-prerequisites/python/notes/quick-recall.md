@@ -106,4 +106,39 @@ Covers loop wrap-up, Unicode character encoding, positive/negative indexing, str
 - Write a slice expression that extracts every second character from index 1 to 7.
 - Implement word counting for a string without calling the built-in `.split()` method.
 
+---
+
+## 04. Python Lists
+
+**Video:** [Session 4 - Lists in Python](https://www.youtube.com/live/WmbU3WBaoR0?si=ph9tYClhLJ_T8fov) · **Date:** 14 Nov 2022
+→ Deep-dive: [04-python-lists.md](04-python-lists.md)
+
+### TL;DR
+Covers dynamic array comparisons, the referential pointer memory model, operations (`append()`, `extend()`, `insert()`), mutability modifications, index-wise vs. item-wise traversals, list comprehensions (filtering, matrix grids), `zip()` function, and mutation risks (reference copy issues).
+
+### Key Points
+* **Referential Model** — Lists are sequences of references (memory pointers) pointing to heap objects. This enables heterogeneous collections and stores arbitrary Python objects.
+* **Size/Type Dynamics** — C/Java style static arrays are fixed in size and homogeneous. Python lists are dynamic (automatically resize) and heterogeneous.
+* **Adding Items** — `append()` inserts one item; `extend()` aggregates elements of an iterable; `insert()` places an item at a targeted index position.
+* **Deleting Items** — `del` deletes items/slices; `remove()` deletes by value (first occurrence); `pop()` deletes by index and returns the item (defaults to `-1`); `clear()` empties the list.
+* **List Comprehension** — Compact, single-line builder syntax replacement for standard loop statements (ex: `[i for i in iterable if condition]`).
+* **Assignment Mutation** — Doing `b = a` copies the pointer reference, not the list. Changes to `a` modify `b`. Use `b = a.copy()` to perform a shallow copy.
+
+### Terms Introduced
+| Term | Definition (one line) |
+|---|---|
+| **Referential Array** | A memory model storing object address pointers contiguously instead of direct values. |
+| **Heterogeneous** | Capable of storing different data types concurrently inside a single collection. |
+| **Shallow Copy** | A copy operation creating a new outer container but maintaining references to nested objects. |
+| **Deep Copy** | A copy operation recursively duplicating the outer container and all nested objects. |
+| **List Comprehension** | An optimized syntax in Python that simplifies list creation from iterables. |
+| **Element-Wise Operation** | Calculations executed independently on each corresponding index element between two vectors. |
+
+### Self-Test
+- Compare the execution speed and memory consumption between arrays and lists.
+- What will `l.extend("AI")` vs. `l.append("AI")` do to `l = [1, 2]`?
+- Explain why doing `b = a` is risky when `a` is a Python list.
+- Write a list comprehension that yields a Cartesian product of two lists.
+
+
 

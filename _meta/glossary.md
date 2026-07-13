@@ -98,4 +98,11 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 
 **Short-Circuit Evaluation** — A logical operator behavior where evaluation stops as soon as the overall truth value is determined. First seen in: [python/notes/03-python-strings.md](../00-prerequisites/python/notes/03-python-strings.md).
 
+**Referential Array** — A memory layout model that stores pointers/addresses contiguously in a list container while the actual objects are stored dynamically elsewhere in memory. First seen in: [python/notes/04-python-lists.md](../00-prerequisites/python/notes/04-python-lists.md).
+
+**List Comprehension** — An optimized Python builder syntax that generates list objects from iterables in a single line. First seen in: [python/notes/04-python-lists.md](../00-prerequisites/python/notes/04-python-lists.md).
+
+**Shallow Copy** — A copy operation that constructs a new container but references the same inner child elements as the original. First seen in: [python/notes/04-python-lists.md](../00-prerequisites/python/notes/04-python-lists.md).
+
+
 

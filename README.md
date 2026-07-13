@@ -14,7 +14,7 @@ Organized by roadmap phase. Phases 01 and 02 (ML, Deep Learning) are placeholder
 
 | Phase | Folder | Course | Status | Notes |
 |---|---|---|---|---|
-| [00 Prerequisites](00-prerequisites/) | `python/` | [Python for AI Engineering](00-prerequisites/python/) (CampusX) | 🟡 In progress | 3 |
+| [00 Prerequisites](00-prerequisites/) | `python/` | [Python for AI Engineering](00-prerequisites/python/) (CampusX) | 🟡 In progress | 4 |
 | [01 Machine Learning](01-machine-learning/) | — | — | ⚪ Not started | — |
 | [02 Deep Learning](02-deep-learning/) | — | — | ⚪ Not started | — |
 | [03 AI Engineer](03-ai-engineer/) | `langchain/` | [LangChain](03-ai-engineer/langchain/) (CampusX) | ⚪ Not started | 0 |
