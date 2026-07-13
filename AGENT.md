@@ -105,7 +105,7 @@ Flag sparingly — only when something would actively mislead someone following 
 
 | Course | Folder | Status | Long Notes | Short Notes |
 |---|---|---|---|---|
-| Python Core (CampusX) | `00-prerequisites/python/` | 🟡 In progress | 1 | 0 |
+| Python for AI Engineering (CampusX) | `00-prerequisites/python/` | 🟡 In progress | 1 | 1 |
 | LLM Evals (CampusX) | `03-ai-engineer/llm-evals/` | 🟡 In progress | 4 | 0 |
 | RAG (CampusX) | `03-ai-engineer/rag/` | ⚪ Not started | 0 | 0 |
 | MCP (CampusX) | `03-ai-engineer/mcp/` | 🟡 In progress | 2 | 0 |
@@ -126,7 +126,7 @@ This is the full learning path. Track per-topic progress inside each course's ow
 
 | Phase | Topic Area | Courses | Status |
 |---|---|---|---|
-| 0 | **Python Foundations** | Python Core | 🟡 In progress |
+| 0 | **Python Foundations** | Python for AI Engineering | 🟡 In progress |
 | 1 | **Maths for ML** | Linear Algebra, Calculus, Probability & Stats | ⚪ Not started |
 | 2 | **Machine Learning** | 100 Days of ML | ⚪ Not started |
 | 3 | **Deep Learning & NLP** | DL fundamentals, Transformers, NLP | ⚪ Not started |

@@ -78,6 +78,8 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 
 **HTTP Status Code** — standard 3-digit code returned by the server (e.g., 200, 400, 404, 500) indicating the execution result of an HTTP request. First seen in: [fastapi/notes/04-path-and-query-parameters.md](../04-deployment/fastapi/notes/04-path-and-query-parameters.md).
 
+**Dynamic Typing** — A programming language feature where variable data types are evaluated and assigned at runtime based on their value, rather than compile time. First seen in: [python/notes/01-python-fundamentals.md](../00-prerequisites/python/notes/01-python-fundamentals.md).
 
+**Dynamic Binding** — The ability of a variable name to reference objects of different data types at different points during program execution. First seen in: [python/notes/01-python-fundamentals.md](../00-prerequisites/python/notes/01-python-fundamentals.md).
 
-
+**Type Conversion** — The process of converting a value from one data type to another, either automatically by the interpreter (implicit) or manually by the programmer (explicit casting). First seen in: [python/notes/01-python-fundamentals.md](../00-prerequisites/python/notes/01-python-fundamentals.md).
