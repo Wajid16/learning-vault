@@ -104,5 +104,16 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 
 **Shallow Copy** — A copy operation that constructs a new container but references the same inner child elements as the original. First seen in: [python/notes/04-python-lists.md](../00-prerequisites/python/notes/04-python-lists.md).
 
+**Version Control System (VCS)** — A software tool that tracks historical modifications to a directory or project, allowing developers to review changes, revert files, and collaborate. First seen in: [software-essentials/notes/01-git-and-github.md](../00-prerequisites/software-essentials/notes/01-git-and-github.md).
+
+**Distributed Version Control System (DVCS)** — A version control architecture where every client workstation maintains a complete local clone of the entire repository history (e.g., Git). First seen in: [software-essentials/notes/01-git-and-github.md](../00-prerequisites/software-essentials/notes/01-git-and-github.md).
+
+**Merge Conflict** — An event occurring during a branch merge when concurrent commits modify overlapping lines of the same file, requiring manual developer reconciliation. First seen in: [software-essentials/notes/01-git-and-github.md](../00-prerequisites/software-essentials/notes/01-git-and-github.md).
+
+**Rebase (Git)** — An operation that rewrites commit history by moving or combining a sequence of commits on top of another base commit to maintain a linear timeline. First seen in: [software-essentials/notes/01-git-and-github.md](../00-prerequisites/software-essentials/notes/01-git-and-github.md).
+
+**Pull Request (PR)** — A collaborative development mechanism on hosting platforms (like GitHub) that notifies team members of proposed branch changes, enabling code review and discussion before merging. First seen in: [software-essentials/notes/01-git-and-github.md](../00-prerequisites/software-essentials/notes/01-git-and-github.md).
+
+
 
 
