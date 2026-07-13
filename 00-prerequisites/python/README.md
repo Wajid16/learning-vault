@@ -7,6 +7,7 @@
 | # | Title | Summary | Long Note | Quick Recall |
 |---|---|---|---|---|
 | 01 | Python Fundamentals | `print()`, data types, `type()`, variables, dynamic typing & binding, comments, keywords & identifiers, `input()`, type conversion, literals | [01-python-fundamentals.md](notes/01-python-fundamentals.md) | [Quick Recall Card](notes/quick-recall.md#01-python-fundamentals) |
+| 02 | Operators, Conditionals, and Loops | Arithmetic, relational, logical, bitwise, assignment, and membership operators; if-elif-else logic & nesting; standard modules; while and for loops | [02-operators-if-else-loops.md](notes/02-operators-if-else-loops.md) | [Quick Recall Card](notes/quick-recall.md#02-operators-conditionals-and-loops) |
 
 ## How these notes are structured
 

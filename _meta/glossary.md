@@ -83,3 +83,12 @@ Format: `**Term** — definition. First seen in: [course/note](link).`
 **Dynamic Binding** — The ability of a variable name to reference objects of different data types at different points during program execution. First seen in: [python/notes/01-python-fundamentals.md](../00-prerequisites/python/notes/01-python-fundamentals.md).
 
 **Type Conversion** — The process of converting a value from one data type to another, either automatically by the interpreter (implicit) or manually by the programmer (explicit casting). First seen in: [python/notes/01-python-fundamentals.md](../00-prerequisites/python/notes/01-python-fundamentals.md).
+
+**Floor Division (`//`)** — A division operation that truncates the decimal part of the result, returning the floor integer. First seen in: [python/notes/02-operators-if-else-loops.md](../00-prerequisites/python/notes/02-operators-if-else-loops.md).
+
+**Membership Operators** — Optimized symbols (`in` / `not in`) used to verify containment of a value inside an iterable structure. First seen in: [python/notes/02-operators-if-else-loops.md](../00-prerequisites/python/notes/02-operators-if-else-loops.md).
+
+**Module** — A Python file containing functions, variables, and classes designed for import and code reuse across different scripts. First seen in: [python/notes/02-operators-if-else-loops.md](../00-prerequisites/python/notes/02-operators-if-else-loops.md).
+
+**while-else loop** — A Python-specific loop construct whose `else` block executes only when the loop terminates naturally without hitting a `break`. First seen in: [python/notes/02-operators-if-else-loops.md](../00-prerequisites/python/notes/02-operators-if-else-loops.md).
+

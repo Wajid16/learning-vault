@@ -36,3 +36,39 @@ Covers Python output (`print()`), dynamic typing and binding, rules for identifi
 - What is the difference between dynamic typing and dynamic binding?
 - What will `print("A", "B", sep="|", end="")` followed by `print("C")` output?
 - How is the `None` literal used as a declaration placeholder?
+
+---
+
+## 02. Operators, Conditionals, and Loops
+
+**Video:** [Session 2 - Operators + If-Else + Loops](https://www.youtube.com/live/JCkIrdrZEE8?si=sZUEuKbKZr-4-igW) · **Date:** 8 Nov 2022
+→ Deep-dive: [02-operators-if-else-loops.md](02-operators-if-else-loops.md)
+
+### TL;DR
+Covers six types of operators, the sum of digits extraction problem, branch logic with `if-elif-else` conditionals, code reusability using modules, `while` and `for` loops, Python's `while-else` construct, and iterative traversal.
+
+### Key Points
+* **Division differences** — `/` evaluates float division (always returning float); `//` evaluates floor division (returning truncated integer).
+* **Compound Assignment** — Python lacks `++` or `--` increment/decrement structures; use `x += 1` instead.
+* **Membership search** — `in` and `not in` verify if an item exists inside a collection. Hashed structures (sets/dicts) resolve in $O(1)$ time complexity.
+* **Conditionals & Nesting** — Code blocks are delineated by colons `:` and indentation (PEP8 advises 4 spaces). Nesting lets us stack conditionals for multi-stage branches.
+* **Modules & Reusability** — Brings pre-built namespaces and functions via `import` statements (e.g., `math`, `random`, `datetime`).
+* **while-else loop** — The `else` block executes only when the loop terminates naturally (condition becomes `False`). If terminated by a `break`, the `else` block is bypassed.
+* **for loop & range()** — Traverses sequences or generated bounds. The `range(start, stop, step)` limits start as inclusive and stop as exclusive.
+
+### Terms Introduced
+| Term | Definition (one line) |
+|---|---|
+| **Floor Division (`//`)** | Division that rounds down to the nearest whole integer. |
+| **XOR Operation (`^`)** | Bitwise evaluation that returns `1` only if the input bits are different. |
+| **Membership Operators** | Symbols (`in` / `not in`) testing containment of a value within an iterable. |
+| **Module** | A Python file containing functions and classes meant to be imported and reused. |
+| **while-else loop** | A loop structure whose `else` block executes only upon standard, non-broken completion. |
+| **range() function** | A built-in generator function returning a sequence of numbers within specified bounds. |
+
+### Self-Test
+- What is the output of `5 // 2` versus `5 / 2`?
+- Under what conditions does the `else` block of a `while-else` loop execute?
+- How do membership operators achieve $O(1)$ search time on sets and dictionaries?
+- Write a `for` loop that prints numbers from 10 down to 1 using `range()`.
+
